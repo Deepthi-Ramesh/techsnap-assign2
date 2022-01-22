@@ -5,24 +5,29 @@ function loadCard() {
         for (var index=0; index < 6 ; index++) {
             gridContainerChildren += `
             <div class="card">
-                            <div class="card-up">
-                                    <button id="pro">PRO</button>
-                                    <div class="px">1020xp</div>
-                            </div>
-                            <div class="card-down">
-                                    <p id="Unguided">Tutorial</p>
-                                    <p id="house-price">Introduction to Python</p>
-                                    <div class="icon">
-                                        <div id="icon"><img src="./images/time 1.png" alt=""/><p>16 hours</p></div>
-                                        <div id="icon"><img src="./images/bars-level (1) 1.png" alt=""/><p>Beginner</p></div>
-                                        <div id="icon"><img src="./images/coin (2) 2.png" alt=""/><p>699 coins</p></div>
-                                    </div>
-                                    <p id="master">Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with numpy. Master the basics of data analysis in Python.  </p>
-                                    <p id="para-2">Last updated 21 days ago.</p>
-                             
-                                <button id="view">View in Detail </button>
-                       </div>
-                    </div>
+            <div class="card-up">
+                <button id="pro">PRO</button>
+                <div class="px">1020xp</div>
+            </div>
+            <div class="card-down">
+                <p id="Unguided">Unguided</p>
+                <p id="house-price">House Price Prediction</p>
+                <p id="para-5">Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with numpy. Master the basics of data analysis in Python.  </p>
+                <div class="icon">
+                    <div id="icon"><img src="./images/time 1.png" alt=""/><p>16 hours</p></div>
+                    <div id="icon"><img src="./images/bars-level (1) 1.png" alt=""/><p>Beginner</p></div>
+                    <div id="icon"><img src="./images/coin (2) 2.png" alt=""/><p>699 coins</p></div>
+                </div>
+                <div class="author"><p class="name">Author :</p><img src="./images/linkedin.png"/><p>Akhil Sv</p></div>
+                 <p id="para-2">Prerequistes :</p>
+                 <div class="python">
+                      <p>Python</p>
+                      <p>Numpy</p></div>
+            </div>
+            <div class="view">
+                <button id="view">View in Detail </button>
+            </div>
+       </div>
             `}
  gridContainer.innerHTML = gridContainerChildren;
             var gridContainer = document.querySelector('.grid-container-1');
@@ -31,23 +36,28 @@ function loadCard() {
                 gridContainerChildren1 += `
                 <div class="card">
                 <div class="card-up">
-                        <button id="pro">PRO</button>
-                        <div class="px">1020xp</div>
+                    <button id="pro">PRO</button>
+                    <div class="px">1020xp</div>
                 </div>
                 <div class="card-down">
-                        <p id="Unguided">Tutorial</p>
-                        <p id="house-price">Introduction to Python</p>
-                        <div class="icon">
-                            <div id="icon"><img src="./images/time 1.png" alt=""/><p>16 hours</p></div>
-                            <div id="icon"><img src="./images/bars-level (1) 1.png" alt=""/><p>Beginner</p></div>
-                            <div id="icon"><img src="./images/coin (2) 2.png" alt=""/><p>699 coins</p></div>
-                        </div>
-                        <p id="master">Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with numpy. Master the basics of data analysis in Python.  </p>
-                        <p id="para-2">Last updated 21 days ago.</p>
-                 
+                    <p id="Unguided">Unguided</p>
+                    <p id="house-price">House Price Prediction</p>
+                    <p id="para-5">Master the basics of data analysis in Python. Expand your skillset by learning scientific computing with numpy. Master the basics of data analysis in Python.  </p>
+                    <div class="icon">
+                        <div id="icon"><img src="./images/time 1.png" alt=""/><p>16 hours</p></div>
+                        <div id="icon"><img src="./images/bars-level (1) 1.png" alt=""/><p>Beginner</p></div>
+                        <div id="icon"><img src="./images/coin (2) 2.png" alt=""/><p>699 coins</p></div>
+                    </div>
+                    <div class="author"><p class="name">Author :</p><img src="./images/linkedin.png"/><p>Akhil Sv</p></div>
+                     <p id="para-2">Prerequistes :</p>
+                     <div class="python">
+                          <p>Python</p>
+                          <p>Numpy</p></div>
+                </div>
+                <div class="view">
                     <button id="view">View in Detail </button>
+                </div>
            </div>
-        </div>
                 `
         }
         gridContainer.innerHTML = gridContainerChildren1;
